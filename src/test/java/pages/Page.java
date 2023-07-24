@@ -12,4 +12,3 @@ public class Page {
     @FindBy(id = "twotabsearchtextbox")
     public WebElement aramaKutusu;
 }
-git
