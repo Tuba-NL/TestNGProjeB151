@@ -12,5 +12,8 @@ public class TC01_AramaKutusuTesti {
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
         Page page = new Page();
         page.aramaKutusu.sendKeys("Iphone", Keys.ENTER);
+        Driver.closeDriver();
+        //aMAZON SAYFASINA GIDILIP ARAMA KUTUUS TEST EDILDI
+
     }
 }
