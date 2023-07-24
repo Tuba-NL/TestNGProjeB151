@@ -14,6 +14,7 @@ public class TC01_AramaKutusuTesti {
         page.aramaKutusu.sendKeys("Iphone", Keys.ENTER);
         Driver.closeDriver();
         //aMAZON SAYFASINA GIDILIP ARAMA KUTUUS TEST EDILDI
+        //yeni kodlar eklendi
 
     }
 }
